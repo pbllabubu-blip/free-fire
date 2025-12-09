@@ -7,9 +7,9 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: black;
-align-items: center;
-text-align: center;
-padding: 12px;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
 }
 .lista{
     display: flex;
@@ -44,12 +44,19 @@ header a{
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 .img2{
     width: 300px;
     height: auto;
     margin-left: 100px;
     margin-top: 250px;
+}
+.google{
+    position: absolute;
+    left: 100px;    
+    top: 330px ; 
+    width: 180px;  
 }
 .news{
     padding: 50px 80px;
@@ -63,9 +70,12 @@ header a{
     text-decoration: none;
     color: black;
 }
-
 .tudo{
-    margin-left: 1120px;
+   text-align: right;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .cor{color: orange;}
@@ -91,4 +101,129 @@ header a{
 .img0 h3{
     font-size: 14px;
     padding: 8px 10px 10px;  
+}
+.imagens{
+    height: 600px;
+    display: flex
+}
+.esquerda{
+    flex: 1;
+    background-image: url('garena04.jpg');
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+.direita{
+    flex: 1;
+    background-image: url('garena06.jpg');
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+    width: 220px;
+}
+.personagem{
+    height: 600px;
+    background-image: url('garena03.png');
+    background-size: cover;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+.texto{
+    color: black;
+    max-width: 400px;
+}
+.texto p{
+    color: gray;
+}
+.texto a{
+    color: black;
+    text-decoration: none;
+}
+.texto span{
+    color: orange;
+}
+.texto h1{
+    max-width: 400px;
+    font-size: 50px;
+}
+.futebol{
+    min-height: 97vh;                 
+    background-image: url('garena05.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;           
+    padding: 40px 24px;
+}
+.texto-fut{
+    max-width: 520px;
+    margin-left: auto;   
+    text-align: left;
+}
+.texto-fut h2{
+    font-size: 64px;
+    color: white;
+}
+.texto-fut h3{
+    font-size: 22px; 
+    color: white;
+}
+.texto-fut p{
+    font-size: 14px; 
+    color: white; 
+    max-width: 420px;
+}
+.esporte{
+    height: 600px;
+    background-image: url('garena03.png');
+    background-size: cover;
+    background-color: gainsboro;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+.texto-esp{
+    color: black;
+    max-width: 400px;
+}
+.texto-esp p{
+    color: gray;
+}
+.texto-esp a{
+    color: black;
+    text-decoration: none;
+}
+.texto-esp span{
+    color: orange;
+}
+.texto-esp h1{
+     max-width: 400px;
+     font-size: 50px;
+}
+footer{
+    background-color: #111;   
+    padding: 30px 0;
+}
+.rodape{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rodape1{
+    height: 60px;  
+}
+.rodape a{
+  color: #ccc;
+  text-decoration: none;
+  font-size: 13px;
+  margin-left: 40px
 }
